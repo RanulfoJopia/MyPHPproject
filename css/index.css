@@ -1,19 +1,63 @@
+/* Make body full height with flexbox */
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; 
+  min-height: 100vh;
+  margin: 0;
 }
+
+/* Push footer down */
 main {
-  flex: 1; /* Pushes footer down */
+  flex: 1; 
+  background: linear-gradient(135deg, #86a1f0, #9bebce);
 }
+
+/* Navbar styling */
+.navbar {
+  background-color: #9ECAD6 !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* Navbar brand color */
+.navbar .navbar-brand {
+  color: #1c6ea4 !important;
+}
+
+/* Navbar links color */
+.navbar .nav-link {
+  color: #113F67 !important;
+  margin-left: 30px;
+  font-size: 20px;
+  margin-right: 30px;
+}
+
+/* Hero text color to contrast gradient */
+.hero-left h1,
+.hero-left p {
+  color: #fff;
+}
+
+/* Card images uniform height */
 .card img {
   height: 200px;
   object-fit: cover;
 }
-.container-custom{
-  padding-left: -30px;
-  padding-right: 5px;
+
+/* Custom container tweaks */
+.container-custom {
+  padding-left: 0;
+  padding-right: 0;
 }
+
+/* Hero section adjustment */
 .hero-left {
-  margin-left: -50px; /* adjust value as needed */
+  margin-left: 0;
+}
+
+/* Footer styling */
+footer {
+  background-color: #9ECAD6;
+  padding: 15px 0;
+  color: #000;
 }
