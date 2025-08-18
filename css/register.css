@@ -1,0 +1,38 @@
+body {
+  background: linear-gradient(135deg, #4e73df, #1cc88a);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+.register-card {
+  animation: fadeInUp 0.8s ease;
+  border-radius: 15px;
+  overflow: hidden;
+}
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.btn-custom {
+  background-color: #1cc88a;
+  border: none;
+  transition: all 0.3s ease;
+}
+.btn-custom:hover {
+  background-color: #17a673;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.btn-forgot {
+  background-color: transparent;
+  border: none;
+  color: #4e73df;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.btn-forgot:hover {
+  color: #224abe;
+  text-decoration: underline;
+}

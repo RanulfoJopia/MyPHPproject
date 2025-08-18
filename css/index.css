@@ -1,0 +1,12 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+main {
+  flex: 1; /* Pushes footer down */
+}
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
