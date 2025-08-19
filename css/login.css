@@ -1,12 +1,11 @@
 
-  body {
-    background: linear-gradient(135deg, #4e73df, #1cc88a);
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Segoe UI', sans-serif;
-  }
+body {
+  background: linear-gradient(135deg, #4e73df, #1cc88a);
+  background-attachment: fixed;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
   .login-card {
     animation: fadeInUp 0.8s ease;
     border-radius: 15px;
