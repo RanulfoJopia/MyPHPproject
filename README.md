@@ -24,18 +24,8 @@ SmileSync is a web platform built with PHP that helps patients and dentists trac
   
 -  Progress timeline and charts
 
-## 🛠️ Tech Stack & Tools
-
--  Backend: PHP 8, MySQL
-  
--  Frontend: HTML5, CSS3, JavaScript (Bootstrap / Tailwind CSS)
-  
--  Framework: Laravel (optional)
-  
--  Other tools:
-  
-   - Chart.js – progress graphs
-   
-   - FullCalendar.js – appointment calendar
-     
-   - PHPMailer – email reminders
+GROUP MEMBERS:
+RANULFO JOPIA
+LANZ SILVA
+CATHRIZ XENIA SINAY
+ALBERT DELACRUZ
