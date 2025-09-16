@@ -169,7 +169,7 @@ value="<?= htmlspecialchars($old['email'] ?? '') ?>">
 
 <p class="text-center mb-0">
 Already have an account? 
-<a href="login.html" class="fw-bold text-decoration-none" style="color: #1c6ea4;">Login here</a>
+<a href="login.php" class="fw-bold text-decoration-none" style="color: #1c6ea4;">Login here</a>
 </p>
 </form>
 </div>

@@ -54,6 +54,16 @@
       flex: 1;
     }
 
+/* Add a custom class to the card to target it */
+.my-card-effect {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.my-card-effect:hover {
+  transform: translateY(-5px) scale(1.02); /* Lifts and slightly zooms the card */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* A more pronounced shadow */
+}
+
     /* Hero text color */
     .hero-left h1,
     .hero-left p {
